@@ -56,10 +56,45 @@ body {
     width: 90%;
 }
 
+.shadaw {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    padding: 10px;
+
+
+}
+
+.box-alin {
+    align-content: space-around;
+    align-items: stretch;
+
+}
+
 #dream-bg {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     flex-direction: row-reverse;
 
+}
+
+#exp-bg {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: center left;
+}
+
+#border-full-stack {
+    border-left: 7px solid rgba(196, 38, 38, 0.6);
+}
+
+#border-baby-web {
+    border-left: 7px solid red;
+    border-image:
+        linear-gradient(to bottom,
+            blue,
+            skyblue) 1 100%;
+}
+
+footer p {
+    text-align: center;
 }
