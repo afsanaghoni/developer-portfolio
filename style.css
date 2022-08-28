@@ -6,9 +6,16 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 100px;
 }
 
-.header-info {
+#header-bg {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+
+.info {
     width: 40%;
 
 }
@@ -40,11 +47,19 @@ body {
 
 }
 
-.header-img {
+.picture {
     width: 40%;
     margin-left: 10px;
 }
 
-.header-img img {
+.picture img {
     width: 90%;
+}
+
+#dream-bg {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    flex-direction: row-reverse;
+
 }
